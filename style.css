@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap");
+
+:root {
+  --fonte-titulo: 900;
+  --fonte-regular: 400;
+  --fonte-ligth: 300;
+
+  --azul: #20364b;
+  --amarelo: #fdc11f;
+  --branco: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--azul);
+  width: 95%;
+  text-align: center;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.cabecalho_logo {
+  width: 260px;
+}
+
+.cabecalho_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--fonte-ligth);
+  font-size: 16px;
+}
+
+.cabecalho_nav_item {
+  text-decoration: none;
+  color: var(--branco);
+  font-weight: var(--fonte-regular);
+  margin: 0 20px;
+  padding: 10px 0;
+  border: hidden;
+  transition: all ease-in-out;
+}
+
+.cabecalho_nav_item:hover {
+  border-bottom: 2px solid var(--amarelo);
+}
+
+.cabecalho_nav_seach {
+  width: 250px;
+  height: 60px;
+  
+}
+
+.conteudo_principal {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.conteudo {
+  text-align: start;
+}
+
+.conteudo_principal_cadastro {
+  font-size: 12px;
+  color: var(--branco);
+  font-weight: var(--fonte-regular);
+  width: 600px;
+}
+
+.conteudo_principal_cadastro h1 {
+  font-size: 70px;
+  color: var(--amarelo);
+  font-weight: var(--fonte-titulo);
+  margin-bottom: -10px;
+}
+
+.conteudo_principal_cadastro span {
+  font-size: 65px;
+  color: var(--branco);
+  font-weight: var(--fonte-titulo);
+}
+
+.conteudo_principal_cadastro p {
+  text-align: justify;
+}
+
+.conteudo_principal_img img {
+  width: 900px;
+}
+
+.conteudo_formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.input {
+  width: 500px;
+  padding: 15px;
+  border-radius: 50px;
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--azul);
+}
+
+.button {
+  width: 150px;
+  padding: 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background: var(--amarelo);
+  font-size: 16px;
+}
